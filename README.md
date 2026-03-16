@@ -135,6 +135,9 @@ denoising-autoencoder-cifar10/
 │       ├── stat05_tsne.png
 │       └── stat06_image_quality.png
 │
+├── 📁 architecture/
+│   └── diagram.svg                         # High-resolution vector architecture diagram
+│
 ├── .gitignore
 ├── LICENSE
 ├── requirements.txt
@@ -448,7 +451,7 @@ Noise is injected **on-the-fly** via a `NoisyDataset` wrapper class. Fresh noise
 The DAE is a fully convolutional symmetric encoder–decoder network with **3 encoder blocks**, a **configurable bottleneck**, and **3 decoder blocks**. No fully-connected layers are used.
 
 <p align="center">
-  <img src="architecture/Image Denoising-2026-03-16-045353.svg" alt="Architecture Diagram" width="95%">
+  <img src="architecture/diagram.svg" alt="Architecture Diagram" width="95%">
   <br/>
   <em>Fig. 30 — Architecture block diagram (Model A — Convolutional Denoising Autoencoder). Scalable Vector Graphics (SVG) visualization showing the encoder pathway, bottleneck, and decoder pathway.</em>
 </p>
