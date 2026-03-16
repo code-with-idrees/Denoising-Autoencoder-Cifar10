@@ -23,7 +23,7 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig23_results_dashboard.png" alt="Results Dashboard" width="100%">
+<img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig22_results_dashboard.png" alt="Results Dashboard" width="100%">
 
 </div>
 
