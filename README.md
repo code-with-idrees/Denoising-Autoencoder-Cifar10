@@ -506,20 +506,14 @@ Final block replaces ReLU with **Sigmoid** to constrain output to [0, 1].
 
 <br/>
 
-### 🗺️ High-Resolution Diagrams
+### 🗺️ High-Resolution Architecture Diagram
 
-Alternative visualizations of the Denoising Autoencoder architecture:
-
-<p align="center">
-  <img src="architecture/Image Denoising-2026-03-16-045350.png" alt="DAE Architecture PNG" width="100%">
-  <br/>
-  <em>Fig. 31a — High-resolution architecture blueprint (PNG).</em>
-</p>
+Scalable vector visualization of the Denoising Autoencoder architecture:
 
 <p align="center">
   <img src="architecture/Image Denoising-2026-03-16-045353.svg" alt="DAE Architecture SVG" width="100%">
   <br/>
-  <em>Fig. 31b — Scalable Vector Graphics (SVG) architecture diagram for publication-quality rendering.</em>
+  <em>Fig. 31 — Scalable Vector Graphics (SVG) architecture diagram for publication-quality rendering.</em>
 </p>
 
 ---
