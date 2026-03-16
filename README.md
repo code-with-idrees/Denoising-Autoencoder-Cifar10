@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🖼️ Convolutional Denoising Autoencoder for CIFAR-10
+<h1>🖼️ Convolutional Denoising Autoencoder for CIFAR-10</h1>
 
-### Generative AI Assignment 1 — Question 2
+<h3>Generative AI Assignment 1 — Question 2</h3>
 
 <br/>
 
