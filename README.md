@@ -504,6 +504,24 @@ Final block replaces ReLU with **Sigmoid** to constrain output to [0, 1].
   <em>Fig. 31 — Parameter distribution analysis. Total: 375,799 params = 1.50 MB. The encoder's third conv layer (64→128) contributes the most parameters (~58.1%). Decoder refinement convolutions add modest overhead (~10.6% each).</em>
 </p>
 
+<br/>
+
+### 🗺️ High-Resolution Diagrams
+
+Alternative visualizations of the Denoising Autoencoder architecture:
+
+<p align="center">
+  <img src="architecture/Image Denoising-2026-03-16-045350.png" alt="DAE Architecture PNG" width="100%">
+  <br/>
+  <em>Fig. 31a — High-resolution architecture blueprint (PNG).</em>
+</p>
+
+<p align="center">
+  <img src="architecture/Image Denoising-2026-03-16-045353.svg" alt="DAE Architecture SVG" width="100%">
+  <br/>
+  <em>Fig. 31b — Scalable Vector Graphics (SVG) architecture diagram for publication-quality rendering.</em>
+</p>
+
 ---
 
 ## 🏋️ Training
