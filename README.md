@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="report/figures/fig23_results_dashboard.png" alt="Results Dashboard" width="100%">
-
-<br/><br/>
-
 # 🖼️ Convolutional Denoising Autoencoder for CIFAR-10
 
 ### Generative AI Assignment 1 — Question 2
@@ -24,6 +20,10 @@
 | 🏫 **University** | FAST-NUCES, Islamabad |
 | 📧 **Contact** | [i230582@isb.nu.edu.pk](mailto:i230582@isb.nu.edu.pk) |
 | 📄 **Report** | [Technical Report (PDF)](report/lncs_report.pdf) |
+
+<br/>
+
+<img src="report/figures/fig23_results_dashboard.png" alt="Results Dashboard" width="100%">
 
 </div>
 
