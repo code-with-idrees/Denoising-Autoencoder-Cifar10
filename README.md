@@ -23,7 +23,7 @@
 
 <br/>
 
-<img src="report/figures/fig23_results_dashboard.png" alt="Results Dashboard" width="100%">
+<img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig23_results_dashboard.png" alt="Results Dashboard" width="100%">
 
 </div>
 
@@ -114,7 +114,7 @@ denoising-autoencoder-cifar10/
 │       ├── fig20_radar_chart.png
 │       ├── fig21_failure_analysis.png
 │       ├── fig22_final_comparison.png
-│       ├── fig23_results_dashboard.png     # Banner image
+│       ├── fig23_results_dashboard.png
 │       ├── stat01_brightness_contrast.png
 │       ├── stat01_cv.png
 │       ├── stat01_percentiles.png
@@ -152,13 +152,13 @@ denoising-autoencoder-cifar10/
 The **CIFAR-10** dataset contains 60,000 color images of size **32×32×3** across **10 balanced classes**: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck.
 
 <p align="center">
-  <img src="report/figures/fig01_cifar10_samples.png" alt="CIFAR-10 Samples" width="80%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig01_cifar10_samples.png" alt="CIFAR-10 Samples" width="80%">
   <br/>
   <em>Fig. 1 — One sample image per class from CIFAR-10 (pixel values in [0,1], tensor shape 3×32×32).</em>
 </p>
 
 <p align="center">
-  <img src="report/figures/fig04_class_prototypes.png" alt="Class Prototypes" width="80%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig04_class_prototypes.png" alt="Class Prototypes" width="80%">
   <br/>
   <em>Fig. 2 — Mean (prototype) images per class, computed by averaging 5,000 training images each. Blurriness reflects high intra-class pose/scale/appearance variation.</em>
 </p>
@@ -181,7 +181,7 @@ The **CIFAR-10** dataset contains 60,000 color images of size **32×32×3** acro
 | **Global** | **0.4734** | **0.2516** |
 
 <p align="center">
-  <img src="report/figures/fig03_pixel_histograms.png" alt="Pixel Histograms" width="85%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig03_pixel_histograms.png" alt="Pixel Histograms" width="85%">
   <br/>
   <em>Fig. 3 — Per-channel pixel value histograms (training set). Red and Green channels are centered near 0.49, while Blue is slightly left-shifted, reflecting the natural color bias of CIFAR-10 scenes.</em>
 </p>
@@ -199,7 +199,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Per-Class Statistics Heatmap
 
 <p align="center">
-  <img src="report/figures/stat01_perclass_heatmap.png" alt="Per-Class Stats Heatmap" width="85%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat01_perclass_heatmap.png" alt="Per-Class Stats Heatmap" width="85%">
   <br/>
   <em>Fig. 4 — Per-class descriptive statistics heatmap (mean, std, median, IQR, skewness, kurtosis, CV%). Color intensity encodes the metric value across all 10 CIFAR-10 classes.</em>
 </p>
@@ -212,7 +212,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Image-Level Brightness & Contrast
 
 <p align="center">
-  <img src="report/figures/stat01_brightness_contrast.png" alt="Brightness and Contrast" width="90%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat01_brightness_contrast.png" alt="Brightness and Contrast" width="90%">
   <br/>
   <em>Fig. 5 — Image-level brightness and contrast analysis. Top-left: brightness histogram (μ=120.7, med=118.9). Top-right: contrast histogram (μ=53.8). Bottom-left: brightness vs. contrast scatter by class. Bottom-right: per-class brightness boxplot.</em>
 </p>
@@ -220,7 +220,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Percentile Analysis
 
 <p align="center">
-  <img src="report/figures/stat01_percentiles.png" alt="Percentile Analysis" width="80%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat01_percentiles.png" alt="Percentile Analysis" width="80%">
   <br/>
   <em>Fig. 6 — Quantile functions per channel (training set). The Red channel has a wider interquartile range than Blue. Extreme pixel values near 0 or 1 are relatively rare across all channels.</em>
 </p>
@@ -228,7 +228,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Coefficient of Variation per Class & Channel
 
 <p align="center">
-  <img src="report/figures/stat01_cv.png" alt="Coefficient of Variation" width="80%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat01_cv.png" alt="Coefficient of Variation" width="80%">
   <br/>
   <em>Fig. 7 — Coefficient of Variation (%) per class and color channel. The Blue channel consistently exhibits the highest CV across all classes, indicating it carries the most relative pixel variability.</em>
 </p>
@@ -236,7 +236,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Spatial Variance Maps (Global)
 
 <p align="center">
-  <img src="report/figures/stat01_spatial_maps.png" alt="Spatial Maps" width="90%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat01_spatial_maps.png" alt="Spatial Maps" width="90%">
   <br/>
   <em>Fig. 8 — Spatial per-pixel mean (top row) and standard deviation (bottom row) maps computed from all 50,000 training images, shown per channel and globally. Center pixels exhibit higher variance — consistent with object-centric image compositions.</em>
 </p>
@@ -244,7 +244,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Spatial Variance Maps (Per Class)
 
 <p align="center">
-  <img src="report/figures/stat01_perclass_spatial_std.png" alt="Per-Class Spatial Std" width="90%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat01_perclass_spatial_std.png" alt="Per-Class Spatial Std" width="90%">
   <br/>
   <em>Fig. 9 — Per-class spatial standard deviation maps (high = high variation across images of that class). Vehicle classes (airplane, ship) show concentrated central variance; animal classes exhibit more diffuse spatial patterns.</em>
 </p>
@@ -256,7 +256,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Pixel Value Distributions with KDE & Normal Fit
 
 <p align="center">
-  <img src="report/figures/stat02_histograms_fitted.png" alt="Histograms Fitted" width="90%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat02_histograms_fitted.png" alt="Histograms Fitted" width="90%">
   <br/>
   <em>Fig. 10 — Pixel value histograms with fitted Normal distribution and KDE overlays. Top row: training set; Bottom row: test set. The bimodal shape (peaks near 0 and 128) confirms significant deviation from normality across all three channels.</em>
 </p>
@@ -264,7 +264,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Normal Q-Q Plots
 
 <p align="center">
-  <img src="report/figures/stat02_qqplots.png" alt="QQ Plots" width="80%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat02_qqplots.png" alt="QQ Plots" width="80%">
   <br/>
   <em>Fig. 11 — Normal Q-Q plots per channel (200K pixel sample). The systematic S-shaped deviation from the diagonal confirms non-normality, with heavy tails evident at both extremes — consistent with the bimodal histogram shapes.</em>
 </p>
@@ -272,7 +272,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Train vs. Test Distribution Comparison
 
 <p align="center">
-  <img src="report/figures/stat02_train_vs_test.png" alt="Train vs Test" width="80%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat02_train_vs_test.png" alt="Train vs Test" width="80%">
   <br/>
   <em>Fig. 12 — Train vs. Test pixel distribution comparison using KDE. Near-perfect overlap between training (solid) and test (dashed) curves validates consistent dataset splitting and confirms the test set is representative.</em>
 </p>
@@ -280,7 +280,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Per-Class KDE per Channel
 
 <p align="center">
-  <img src="report/figures/stat02_kde_per_class.png" alt="KDE Per Class" width="85%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat02_kde_per_class.png" alt="KDE Per Class" width="85%">
   <br/>
   <em>Fig. 13 — KDE of pixel values per class and channel. Classes like "frog" and "deer" dominate higher pixel values (green-shifted); "automobile" and "truck" peak at darker values — capturing class-specific color signatures.</em>
 </p>
@@ -292,7 +292,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Pearson Correlation Matrix
 
 <p align="center">
-  <img src="report/figures/stat03_correlation_matrix.png" alt="Correlation Matrix" width="65%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat03_correlation_matrix.png" alt="Correlation Matrix" width="65%">
   <br/>
   <em>Fig. 14 — Pearson correlation matrix between image metadata features (Brightness, Contrast, Sharpness, R_mean, G_mean, B_mean). Strong R-G-B inter-correlations (r > 0.85) reflect the dominance of luminance variation over chrominance in natural images.</em>
 </p>
@@ -300,7 +300,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Per-Class Inter-Channel Correlations
 
 <p align="center">
-  <img src="report/figures/stat03_perclass_channel.png" alt="Per-Class Channel Correlation" width="80%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat03_perclass_channel.png" alt="Per-Class Channel Correlation" width="80%">
   <br/>
   <em>Fig. 15 — Per-class channel correlation analysis (R-G, R-B, G-B). The "frog" class shows weaker R-B correlation due to its distinctive green-dominant colorspace. Vehicle classes show higher, more uniform inter-channel correlations.</em>
 </p>
@@ -308,7 +308,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Spatial Autocorrelation
 
 <p align="center">
-  <img src="report/figures/stat03_spatial_autocorr.png" alt="Spatial Autocorrelation" width="70%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat03_spatial_autocorr.png" alt="Spatial Autocorrelation" width="70%">
   <br/>
   <em>Fig. 16 — Spatial pixel autocorrelation (rows and columns, 2K images). Strong positive correlation between adjacent pixels decays sharply with spatial lag — a key property that convolutional autoencoders exploit during reconstruction.</em>
 </p>
@@ -316,7 +316,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Channel Scatter Matrix
 
 <p align="center">
-  <img src="report/figures/stat03_scatter_matrix.png" alt="Scatter Matrix" width="85%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat03_scatter_matrix.png" alt="Scatter Matrix" width="85%">
   <br/>
   <em>Fig. 17 — R-G-B channel scatter matrix (1K sample, colored by CIFAR-10 class). Ellipsoidal point clouds indicate approximate joint normality at the image level. Class clusters are partially separable in the RGB feature space.</em>
 </p>
@@ -328,7 +328,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### PCA Variance Analysis
 
 <p align="center">
-  <img src="report/figures/stat05_pca_variance.png" alt="PCA Variance" width="80%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat05_pca_variance.png" alt="PCA Variance" width="80%">
   <br/>
   <em>Fig. 18 — PCA scree plot and cumulative explained variance (15K training images). The first 100 components capture ~90% of total variance, demonstrating that CIFAR-10 images reside on a much lower-dimensional manifold than their 3,072-dimensional pixel space suggests.</em>
 </p>
@@ -336,7 +336,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### PCA 2D Projection
 
 <p align="center">
-  <img src="report/figures/stat05_pca_2d.png" alt="PCA 2D" width="75%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat05_pca_2d.png" alt="PCA 2D" width="75%">
   <br/>
   <em>Fig. 19 — 2D PCA projection (PC1=29.19%, PC2=11.26%) of 15K CIFAR-10 training images colored by class. Significant overlap is expected for a 3,072→2 compression, but structured categories like "frog" and "ship" form partially separable clusters.</em>
 </p>
@@ -344,7 +344,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### PCA 3D Projection
 
 <p align="center">
-  <img src="report/figures/stat05_pca_3d.png" alt="PCA 3D" width="75%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat05_pca_3d.png" alt="PCA 3D" width="75%">
   <br/>
   <em>Fig. 20 — 3D PCA projection. The third principal component adds minor separability for green-dominant classes (frog) and blue-dominant classes (ship), confirming that color channel statistics are captured by the top components.</em>
 </p>
@@ -352,7 +352,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### Eigenimages (Top Principal Components)
 
 <p align="center">
-  <img src="report/figures/stat05_eigenimages.png" alt="Eigenimages" width="85%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat05_eigenimages.png" alt="Eigenimages" width="85%">
   <br/>
   <em>Fig. 21 — Top 16 principal components visualized as 32×32×3 eigenimages. The first eigenimage captures global brightness variation; subsequent components encode increasingly fine-grained spatial patterns, color contrasts, and textural structures.</em>
 </p>
@@ -360,7 +360,7 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 #### t-SNE Embedding
 
 <p align="center">
-  <img src="report/figures/stat05_tsne.png" alt="t-SNE" width="75%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat05_tsne.png" alt="t-SNE" width="75%">
   <br/>
   <em>Fig. 22 — t-SNE 2D embedding (5K samples, 50 PCA dims → 2D). Non-linear dimensionality reduction reveals tighter class clusters than PCA — especially for structured categories like "ship" and "automobile." Visually similar categories like "cat" and "dog" remain heavily mixed, consistent with known CIFAR-10 classification difficulty.</em>
 </p>
@@ -370,25 +370,25 @@ A comprehensive statistical analysis was performed to characterize the CIFAR-10 
 ### ⚖️ Class Balance & Image Quality
 
 <p align="center">
-  <img src="report/figures/stat04_class_distribution.png" alt="Class Distribution" width="85%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat04_class_distribution.png" alt="Class Distribution" width="85%">
   <br/>
   <em>Fig. 23 — CIFAR-10 class distribution for training (50K) and test (10K) sets. Perfect balance: exactly 5,000 training and 1,000 test images per class (imbalance ratio = 1.00).</em>
 </p>
 
 <p align="center">
-  <img src="report/figures/stat04_class_balance.png" alt="Class Balance" width="75%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat04_class_balance.png" alt="Class Balance" width="75%">
   <br/>
   <em>Fig. 24 — Class balance verification using Lorenz curve (left) and deviation from perfect balance (right). Gini coefficient ≈ 0.00, confirming perfectly uniform class distribution across train and test splits.</em>
 </p>
 
 <p align="center">
-  <img src="report/figures/stat04_cumulative_coverage.png" alt="Cumulative Coverage" width="65%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat04_cumulative_coverage.png" alt="Cumulative Coverage" width="65%">
   <br/>
   <em>Fig. 25 — Cumulative class coverage under random sampling (training set, log scale). All 10 classes are encountered within the first ~100 random draws, confirming uniform representation with no rare-class issues.</em>
 </p>
 
 <p align="center">
-  <img src="report/figures/stat06_image_quality.png" alt="Image Quality" width="95%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/stat06_image_quality.png" alt="Image Quality" width="95%">
   <br/>
   <em>Fig. 26 — Image quality assessment metrics per class: Laplacian variance (sharpness), image entropy, colorfulness index, and gradient magnitude. Vehicle classes (automobile, truck) exhibit higher sharpness; nature classes show higher colorfulness and entropy.</em>
 </p>
@@ -424,19 +424,19 @@ Simulates dead/stuck pixels, bit errors during transmission, and analog-to-digit
 ### Noise Visualization
 
 <p align="center">
-  <img src="report/figures/fig05_noise_types_comparison.png" alt="Noise Types Comparison" width="90%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig05_noise_types_comparison.png" alt="Noise Types Comparison" width="90%">
   <br/>
   <em>Fig. 27 — Visual comparison of all four noise types at multiple severity levels (Gaussian σ=0.15 | Salt-Pepper 10% | Poisson scale=30 | Speckle σ=0.20). Input PSNR shown on last column. Gaussian produces uniform speckle; Salt-and-Pepper creates sparse extreme-value pixels.</em>
 </p>
 
 <p align="center">
-  <img src="report/figures/fig06_noise_level_progression.png" alt="Noise Level Progression" width="85%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig06_noise_level_progression.png" alt="Noise Level Progression" width="85%">
   <br/>
   <em>Fig. 28 — Progressive noise degradation. Top rows: Gaussian noise (σ = 0.05, 0.1, 0.2, 0.3, 0.4). Bottom rows: Salt-and-Pepper noise (amt = 0.02, 0.05, 0.1, 0.2, 0.3). PSNR shown per image — decreasing from ~26 dB at low levels to ~10 dB at extreme corruption.</em>
 </p>
 
 <p align="center">
-  <img src="report/figures/fig07_input_psnr_bars.png" alt="Input PSNR Bars" width="80%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig07_input_psnr_bars.png" alt="Input PSNR Bars" width="80%">
   <br/>
   <em>Fig. 29 — Input PSNR (dB) of noisy images before denoising, for both Gaussian (left) and Salt-and-Pepper (right) noise. Color zones: Green ≥ 25 dB (low), Orange 20–25 dB (moderate), Red < 20 dB (heavy). Serves as the pre-denoising baseline.</em>
 </p>
@@ -452,7 +452,7 @@ Noise is injected **on-the-fly** via a `NoisyDataset` wrapper class. Fresh noise
 The DAE is a fully convolutional symmetric encoder–decoder network with **3 encoder blocks**, a **configurable bottleneck**, and **3 decoder blocks**. No fully-connected layers are used.
 
 <p align="center">
-  <img src="report/figures/fig08_architecture_diagram.png" alt="Architecture Diagram" width="95%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig08_architecture_diagram.png" alt="Architecture Diagram" width="95%">
   <br/>
   <em>Fig. 30 — Architecture block diagram (Model A — Convolutional Denoising Autoencoder). Shows the encoder pathway (left), bottleneck (center, 128×4×4 = 2,048 latent units), and decoder pathway (right) with channel and spatial dimensions labeled at each stage.</em>
 </p>
@@ -503,7 +503,7 @@ Final block replaces ReLU with **Sigmoid** to constrain output to [0, 1].
 | **Total Trainable Parameters** | | **~181,591** |
 
 <p align="center">
-  <img src="report/figures/fig09_parameter_analysis.png" alt="Parameter Analysis" width="80%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig09_parameter_analysis.png" alt="Parameter Analysis" width="80%">
   <br/>
   <em>Fig. 31 — Parameter distribution analysis. Total: 375,799 params = 1.50 MB. The encoder's third conv layer (64→128) contributes the most parameters (~58.1%). Decoder refinement convolutions add modest overhead (~10.6% each).</em>
 </p>
@@ -540,7 +540,7 @@ MSE is smooth, convex, and differentiable everywhere — ideal for gradient-base
 ### Training Dashboard
 
 <p align="center">
-  <img src="report/figures/fig10_training_dashboard.png" alt="Training Dashboard" width="100%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig10_training_dashboard.png" alt="Training Dashboard" width="100%">
   <br/>
   <em>Fig. 32 — Full training dashboard. Top-left: Train vs. Validation MSE loss curves (linear scale). Top-right: Convergence on log scale — best epoch = 24 (★). Bottom-left: Learning rate schedule with 2 ReduceLROnPlateau reductions applied. Bottom-right: Mean gradient norm per epoch — all values below the clip threshold (1.0), confirming stable training throughout.</em>
 </p>
@@ -568,7 +568,7 @@ The trained model is evaluated on the held-out test set (10,000 images) using th
 ### Denoising Visualization
 
 <p align="center">
-  <img src="report/figures/fig11_denoising_results_grid.png" alt="Denoising Results Grid" width="100%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig11_denoising_results_grid.png" alt="Denoising Results Grid" width="100%">
   <br/>
   <em>Fig. 33 — Denoising results grid. Row 1: Original clean images. Row 2: Noisy inputs (Gaussian σ=0.1). Row 3: DAE reconstructions. The model successfully suppresses noise while preserving overall structure, color, and class-defining features.</em>
 </p>
@@ -576,7 +576,7 @@ The trained model is evaluated on the held-out test set (10,000 images) using th
 ### Error Analysis
 
 <p align="center">
-  <img src="report/figures/fig12_error_maps.png" alt="Error Maps" width="95%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig12_error_maps.png" alt="Error Maps" width="95%">
   <br/>
   <em>Fig. 34 — Pixel-wise absolute error maps for 4 example images. Columns: Clean | Noisy | Reconstructed | Input Error | Output Error | Improvement. Brighter regions = higher reconstruction error. Errors concentrate along object edges and high-frequency textures — consistent with MSE's tendency to produce locally averaged predictions.</em>
 </p>
@@ -584,7 +584,7 @@ The trained model is evaluated on the held-out test set (10,000 images) using th
 ### Metric Distributions
 
 <p align="center">
-  <img src="report/figures/fig13_metric_distributions.png" alt="Metric Distributions" width="85%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig13_metric_distributions.png" alt="Metric Distributions" width="85%">
   <br/>
   <em>Fig. 35 — Per-image PSNR, SSIM, and MSE distributions across 10,000 test images. Mean PSNR ≈ 26.0 dB (P5–P95: [24.07, 29.49]). Tight, near-Gaussian distributions indicate consistent reconstruction quality across all image content and classes.</em>
 </p>
@@ -592,7 +592,7 @@ The trained model is evaluated on the held-out test set (10,000 images) using th
 ### Per-Class Performance
 
 <p align="center">
-  <img src="report/figures/fig14_per_class_metrics.png" alt="Per-Class Metrics" width="90%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig14_per_class_metrics.png" alt="Per-Class Metrics" width="90%">
   <br/>
   <em>Fig. 36 — Per-class reconstruction quality sorted by PSNR. Classes with uniform backgrounds ("frog", "airplane", "ship") achieve higher PSNR/SSIM. Classes with complex textures and fine-grained features ("cat", "automobile") score lower. Mean PSNR = 26.645 dB; Mean SSIM = 0.887.</em>
 </p>
@@ -600,7 +600,7 @@ The trained model is evaluated on the held-out test set (10,000 images) using th
 ### Frequency Domain Analysis
 
 <p align="center">
-  <img src="report/figures/fig15_fft_analysis.png" alt="FFT Analysis" width="80%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig15_fft_analysis.png" alt="FFT Analysis" width="80%">
   <br/>
   <em>Fig. 37 — Average FFT magnitude spectrum analysis. Left: clean image (energy concentrated at low frequencies). Center: noisy image (flat high-frequency noise floor clearly visible). Right: reconstruction (noise floor suppressed). Confirms the autoencoder functions as a learned low-pass filter.</em>
 </p>
@@ -608,7 +608,7 @@ The trained model is evaluated on the held-out test set (10,000 images) using th
 ### Final Comparison — Both Noise Types
 
 <p align="center">
-  <img src="report/figures/fig22_final_comparison.png" alt="Final Comparison" width="100%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig22_final_comparison.png" alt="Final Comparison" width="100%">
   <br/>
   <em>Fig. 38 — Final denoising comparison for both noise types. Top 3 rows: Gaussian denoising (Clean → Noisy → Reconstructed). Bottom 3 rows: Salt-and-Pepper denoising. PSNR and SSIM annotated beneath each reconstructed image.</em>
 </p>
@@ -642,7 +642,7 @@ The trained model is evaluated on the held-out test set (10,000 images) using th
 | 0.30 | 0.0054 | 23.07 | 0.7579 |
 
 <p align="center">
-  <img src="report/figures/fig17_expA_noise_levels.png" alt="Experiment A Results" width="90%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig17_expA_noise_levels.png" alt="Experiment A Results" width="90%">
   <br/>
   <em>Fig. 39 — Experiment A: MSE (left), PSNR (center), and SSIM (right) vs. noise level for Gaussian (blue) and Salt-and-Pepper (red) noise at bottleneck=128. Gaussian noise degrades quality more steeply; Salt-and-Pepper remains more robust at equivalent noise levels.</em>
 </p>
@@ -667,7 +667,7 @@ The trained model is evaluated on the held-out test set (10,000 images) using th
 | 256 | 4,096 | 288,471 | 0.0039 | 24.45 | 0.8192 |
 
 <p align="center">
-  <img src="report/figures/fig18_expB_bottleneck.png" alt="Experiment B Results" width="90%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig18_expB_bottleneck.png" alt="Experiment B Results" width="90%">
   <br/>
   <em>Fig. 40 — Experiment B: MSE, PSNR, and SSIM vs. bottleneck channel count. Performance improves consistently with capacity but with clear diminishing returns beyond 128 channels. Labels show latent unit count and parameter count per configuration.</em>
 </p>
@@ -680,7 +680,7 @@ The trained model is evaluated on the held-out test set (10,000 images) using th
 #### PSNR & SSIM Heatmap (Noise Level × Bottleneck Grid)
 
 <p align="center">
-  <img src="report/figures/fig19_heatmaps_psnr_ssim.png" alt="Grid Search Heatmaps" width="85%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig19_heatmaps_psnr_ssim.png" alt="Grid Search Heatmaps" width="85%">
   <br/>
   <em>Fig. 41 — Grid search heatmaps of PSNR (left) and SSIM (right) across 4 Gaussian noise levels × 4 bottleneck sizes. Each cell = one model trained for 15 epochs. Larger bottlenecks consistently improve performance; gains diminish at higher noise levels.</em>
 </p>
@@ -688,7 +688,7 @@ The trained model is evaluated on the held-out test set (10,000 images) using th
 #### Multi-Metric Radar Chart
 
 <p align="center">
-  <img src="report/figures/fig20_radar_chart.png" alt="Radar Chart" width="60%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig20_radar_chart.png" alt="Radar Chart" width="60%">
   <br/>
   <em>Fig. 42 — Radar chart comparing all 5 bottleneck configurations across normalized metrics (SSIM, PSNR, 1-MSE, Efficiency). All axes normalized to [0,1]; further from center = better. BN=128 (green) achieves the most balanced performance profile across all dimensions.</em>
 </p>
@@ -720,7 +720,7 @@ The trained model is evaluated on the held-out test set (10,000 images) using th
 ### Failure Analysis
 
 <p align="center">
-  <img src="report/figures/fig21_failure_analysis.png" alt="Failure Analysis" width="90%">
+  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig21_failure_analysis.png" alt="Failure Analysis" width="90%">
   <br/>
   <em>Fig. 43 — Failure analysis: Worst 5 examples (red border, top rows) vs. Best 5 examples (green border, bottom rows). Each block: Clean | Noisy | Reconstructed. Common failure modes: loss of fine texture details (fur, feathers), smeared edges, and color desaturation on images with complex high-frequency backgrounds.</em>
 </p>
