@@ -110,30 +110,7 @@ denoising-autoencoder-cifar10/
 │       ├── fig20_radar_chart.png
 │       ├── fig21_failure_analysis.png
 │       ├── fig22_final_comparison.png
-│       ├── fig23_results_dashboard.png
-│       ├── stat01_brightness_contrast.png
-│       ├── stat01_cv.png
-│       ├── stat01_percentiles.png
-│       ├── stat01_perclass_heatmap.png
-│       ├── stat01_perclass_spatial_std.png
-│       ├── stat01_spatial_maps.png
-│       ├── stat02_histograms_fitted.png
-│       ├── stat02_kde_per_class.png
-│       ├── stat02_qqplots.png
-│       ├── stat02_train_vs_test.png
-│       ├── stat03_correlation_matrix.png
-│       ├── stat03_perclass_channel.png
-│       ├── stat03_scatter_matrix.png
-│       ├── stat03_spatial_autocorr.png
-│       ├── stat04_class_balance.png
-│       ├── stat04_class_distribution.png
-│       ├── stat04_cumulative_coverage.png
-│       ├── stat05_eigenimages.png
-│       ├── stat05_pca_2d.png
-│       ├── stat05_pca_3d.png
-│       ├── stat05_pca_variance.png
-│       ├── stat05_tsne.png
-│       └── stat06_image_quality.png
+│       └── fig23_results_dashboard.png
 │
 ├── 📁 architecture/
 │   └── diagram.svg                         # High-resolution vector architecture diagram
@@ -451,9 +428,9 @@ Noise is injected **on-the-fly** via a `NoisyDataset` wrapper class. Fresh noise
 The DAE is a fully convolutional symmetric encoder–decoder network with **3 encoder blocks**, a **configurable bottleneck**, and **3 decoder blocks**. No fully-connected layers are used.
 
 <p align="center">
-  <img src="architecture/diagram.svg" alt="Architecture Diagram" width="95%">
+  <img src="architecture/diagram.svg" alt="Architecture Diagram" width="90%">
   <br/>
-  <em>Fig. 30 — Architecture block diagram (Model A — Convolutional Denoising Autoencoder). Scalable Vector Graphics (SVG) visualization showing the encoder pathway, bottleneck, and decoder pathway.</em>
+  <em>Fig. 30 — Architecture block diagram. Full forward pass from noisy input (3×32×32) through encoder, bottleneck (2,048 latent units), decoder, to clean output (3×32×32), with MSE loss target.</em>
 </p>
 
 ### Encoder
