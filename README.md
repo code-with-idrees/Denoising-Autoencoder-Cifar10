@@ -448,9 +448,9 @@ Noise is injected **on-the-fly** via a `NoisyDataset` wrapper class. Fresh noise
 The DAE is a fully convolutional symmetric encoder–decoder network with **3 encoder blocks**, a **configurable bottleneck**, and **3 decoder blocks**. No fully-connected layers are used.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig08_architecture_diagram.png" alt="Architecture Diagram" width="95%">
+  <img src="architecture/Image Denoising-2026-03-16-045353.svg" alt="Architecture Diagram" width="95%">
   <br/>
-  <em>Fig. 30 — Architecture block diagram (Model A — Convolutional Denoising Autoencoder). Shows the encoder pathway (left), bottleneck (center, 128×4×4 = 2,048 latent units), and decoder pathway (right) with channel and spatial dimensions labeled at each stage.</em>
+  <em>Fig. 30 — Architecture block diagram (Model A — Convolutional Denoising Autoencoder). Scalable Vector Graphics (SVG) visualization showing the encoder pathway, bottleneck, and decoder pathway.</em>
 </p>
 
 ### Encoder
@@ -502,18 +502,6 @@ Final block replaces ReLU with **Sigmoid** to constrain output to [0, 1].
   <img src="https://raw.githubusercontent.com/code-with-idrees/denoising-autoencoder-cifar10/main/report/figures/fig09_parameter_analysis.png" alt="Parameter Analysis" width="80%">
   <br/>
   <em>Fig. 31 — Parameter distribution analysis. Total: 375,799 params = 1.50 MB. The encoder's third conv layer (64→128) contributes the most parameters (~58.1%). Decoder refinement convolutions add modest overhead (~10.6% each).</em>
-</p>
-
-<br/>
-
-### 🗺️ High-Resolution Architecture Diagram
-
-Scalable vector visualization of the Denoising Autoencoder architecture:
-
-<p align="center">
-  <img src="architecture/Image Denoising-2026-03-16-045353.svg" alt="DAE Architecture SVG" width="100%">
-  <br/>
-  <em>Fig. 31 — Scalable Vector Graphics (SVG) architecture diagram for publication-quality rendering.</em>
 </p>
 
 ---
